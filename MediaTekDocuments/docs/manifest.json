@@ -1,0 +1,574 @@
+{
+  "source_base_path": "F:/CNED BTS SIO option SLAM/2ème année/Bloc 2 SLAM/Atelier 2/MediaTekDocuments",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "MediaTekDocuments/docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "MediaTekDocuments/docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "MediaTekDocuments/docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "MediaTekDocuments/docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "MediaTekDocuments/docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "MediaTekDocuments/docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "MediaTekDocuments/docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.dal.Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.dal.Access.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.dal.Access",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.dal.Access.yml\" sourcestartlinenumber=\"1\">Classe d'accès aux données</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.dal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.dal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.dal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.AbonnementHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.AbonnementHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.AbonnementHelper",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.AbonnementHelper.yml\" sourcestartlinenumber=\"1\">Classe utilitaire statique pour les calculs liés aux abonnements de revues</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Categorie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Categorie.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Categorie",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Categorie.yml\" sourcestartlinenumber=\"1\">Classe métier Categorie (réunit les informations des classes Public, Genre et Rayon)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.CommandeDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.CommandeDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.CommandeDocument",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.CommandeDocument.yml\" sourcestartlinenumber=\"1\">Classe métier représentant une commande de document (livre ou DVD)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.CommandeRevue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.CommandeRevue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.CommandeRevue",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.CommandeRevue.yml\" sourcestartlinenumber=\"1\">Classe métier représentant une commande d'abonnement à une revue</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Document.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Document",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Document.yml\" sourcestartlinenumber=\"1\">Classe métier Document (réunit les infomations communes à tous les documents : Livre, Revue, Dvd)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Dvd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Dvd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Dvd",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Dvd.yml\" sourcestartlinenumber=\"1\">Classe métier Dvd hérite de LivreDvd : contient des propriétés spécifiques aux dvd</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Etat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Etat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Etat",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Etat.yml\" sourcestartlinenumber=\"1\">Classe métier Etat (état d'usure d'un document)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Exemplaire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Exemplaire.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Exemplaire",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Exemplaire.yml\" sourcestartlinenumber=\"1\">Classe métier Exemplaire (exemplaire d'une revue)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Genre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Genre.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Genre",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Genre.yml\" sourcestartlinenumber=\"1\">Classe métier Genre : hérite de Categorie</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Livre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Livre.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Livre",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Livre.yml\" sourcestartlinenumber=\"1\">Classe métier Livre hérite de LivreDvd : contient des propriétés spécifiques aux livres</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.LivreDvd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.LivreDvd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.LivreDvd",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.LivreDvd.yml\" sourcestartlinenumber=\"1\">Classe métier LivreDvd hérite de Document</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Public.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Public.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Public",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Public.yml\" sourcestartlinenumber=\"1\">Classe métier Public (public concerné par le document) hérite de Categorie</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Rayon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Rayon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Rayon",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Rayon.yml\" sourcestartlinenumber=\"1\">Classe métier Rayon (rayon de classement du document) hérite de Categorie</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Revue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Revue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Revue",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Revue.yml\" sourcestartlinenumber=\"1\">Classe métier Revue hérite de Document : contient des propriétés spécifiques aux revues</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Service",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Service.yml\" sourcestartlinenumber=\"1\">Classe métier représentant un service (département) de la médiathèque</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Suivi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Suivi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Suivi",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Suivi.yml\" sourcestartlinenumber=\"1\">Représente une étape de suivi d'une commande</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.Utilisateur.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.Utilisateur.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model.Utilisateur",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.model.Utilisateur.yml\" sourcestartlinenumber=\"1\">Classe métier représentant un utilisateur de l'application</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.model",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.view.FrmAuthentification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.FrmAuthentification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.view.FrmAuthentification",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.view.FrmAuthentification.yml\" sourcestartlinenumber=\"1\">Fenêtre d'authentification : demande login et mot de passe à l'utilisateur.\nRetourne DialogResult.OK si l'authentification réussit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.view.FrmMediatek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.FrmMediatek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.view.FrmMediatek",
+      "Summary": "<p sourcefile=\"api/MediaTekDocuments.view.FrmMediatek.yml\" sourcestartlinenumber=\"1\">Classe d'affichage</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.view.InputDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.InputDialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.view.InputDialog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTekDocuments.view.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTekDocuments.view.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTekDocuments.view",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/BouncyCastle.Cryptography.2.6.2/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/BouncyCastle.Cryptography.2.6.2/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/BouncyCastle.Cryptography.2.6.2/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/BouncyCastle.Cryptography.2.6.2/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/Microsoft.Bcl.AsyncInterfaces.10.0.2/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/Microsoft.Bcl.AsyncInterfaces.10.0.2/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/MySql.Data.9.5.0/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/MySql.Data.9.5.0/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/Newtonsoft.Json.13.0.4/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/Newtonsoft.Json.13.0.4/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/Newtonsoft.Json.13.0.4/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/Newtonsoft.Json.13.0.4/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/Newtonsoft.Json.Bson.1.0.3/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/Newtonsoft.Json.Bson.1.0.3/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.Buffers.4.6.1/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.Buffers.4.6.1/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.Configuration.ConfigurationManager.10.0.2/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.Configuration.ConfigurationManager.10.0.2/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.IO.Pipelines.9.0.12/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.IO.Pipelines.9.0.12/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.Numerics.Vectors.4.6.1/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.Numerics.Vectors.4.6.1/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.Runtime.CompilerServices.Unsafe.6.1.2/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.Runtime.CompilerServices.Unsafe.6.1.2/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.Threading.Tasks.Extensions.4.6.3/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.Threading.Tasks.Extensions.4.6.3/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "packages/System.ValueTuple.4.6.1/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "packages/System.ValueTuple.4.6.1/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
